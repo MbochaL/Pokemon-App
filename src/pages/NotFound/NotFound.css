@@ -1,0 +1,16 @@
+.NotFound {
+    display: flex;
+    height: 100vh;
+    color:#9EDEF9;
+  }
+  
+  .NotFounContainer {
+    flex: 1;
+    background-color: #FCEEC8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+ 

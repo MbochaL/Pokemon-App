@@ -1,0 +1,114 @@
+.Login {
+  display: flex;
+  height: 100vh;
+  color:#9EDEF9;
+}
+
+.LoginHeroContainer {
+  flex: 1;
+  background-color: #FCEEC8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginFormContainer {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoginForm {
+  width: 420px;
+}
+
+.LoginFormTitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-block: 0;
+  margin-bottom: 10px;
+}
+
+.LoginFormDescription {
+  font-family:  'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-block: 0;
+  color: #8692A6;
+  margin-bottom: 40px;
+}
+
+.LoginFormContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.LoginFormInputLabel {
+  display: block;
+  width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color:#9EDEF9;
+  margin-bottom: 14px;
+}
+
+.LoginFormInput {
+  width: 100%;
+  border: 1px solid #164088;
+  box-sizing: border-box;
+  border-radius: 6px;
+  height: 64px;
+  margin-bottom: 24px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color:#101111;
+  padding: 10px;
+}
+
+.LoginFormButton {
+  background: #2C73EB;
+  border-radius: 6px;
+  height: 64px;
+  width: 100%;
+  color: white;
+  border: 0;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.LoginFormError {
+  width: 100%;
+  box-sizing: border-box;
+  height: 64px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: red;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.LoginFormSuccess {
+  width: 420px;
+}
+
+.LoginFormSuccessTitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-block: 0;
+  margin-bottom: 10px;
+}
